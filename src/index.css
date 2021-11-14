@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  margin: 0;
+  font-family: 'Indie Flower', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+li.presentation{
+  z-index: 150;
+}
+video:-webkit-full-page-media {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  max-height: 100%;
+  max-width: 100%;
+  margin: auto;
+}
+audio {
+  /* filter: grayscale(116%) sepia(94%) brightness(70%) hue-rotate(299deg) saturate(385%) contrast(118%); */
+  width: 80vw;
+  height: 60px;
+  border-radius: 0;
+  
+}
+/* ---------------------------------------------- */
+audio::-webkit-media-controls-panel
+{
+  background-color: rgb(255, 96, 96) !important;
+}
+
+audio::-webkit-media-controls-mute-button
+{
+  background-color: rgb(255, 96, 96) !important;
+}
+
+audio::-webkit-media-controls-play-button
+{
+  background-color: rgb(255, 96, 96) !important;
+  margin-right: 30px;
+  
+}
+
+audio::-webkit-media-controls-timeline-container{
+  background-color: rgb(255, 96, 96) !important;
+}
+
+audio::-webkit-media-controls-current-time-display
+{
+  background-color: rgb(255, 96, 96) !important;
+}
+
+audio::-webkit-media-controls-time-remaining-display
+{
+  background-color: rgb(255, 96, 96) !important;
+}
+
+audio::-webkit-media-controls-timeline
+{
+  background-color: rgb(255, 96, 96) !important;
+}
+
+audio::-webkit-media-controls-volume-slider-container
+{
+  background-color: rgb(255, 96, 96) !important;
+}
+
+audio::-webkit-media-controls-volume-slider{
+  background-color: rgb(255, 96, 96) !important;
+}
+audio::-webkit-media-controls-seek-back-button
+{
+  background-color: rgb(255, 96, 96) !important;
+}
+
+audio::-webkit-media-controls-seek-forward-button
+{
+  background-color: rgb(255, 96, 96) !important;
+}
+
+audio::-webkit-media-controls-fullscreen-button
+{
+  background-color: rgb(255, 96, 96) !important;
+}
+audio::-webkit-media-controls-rewind-button
+{
+  background-color: white;
+}
+
+audio::-webkit-media-controls-return-to-realtime-button
+{
+  background-color: white;
+}
+
+audio::-webkit-media-controls-toggle-closed-captions-button
+{
+  background-color: white;
+}
+
+/* ---------------------------------------------- */
+
+body:-webkit-full-page-media {
+  background-color: rgb(255, 96, 96);
+}
+.audio.audiomp3{
+  background-color: rgb(255, 96, 96);
+  background: rgb(255, 96, 96);
+  color:white;
+
+}
+audio::-webkit-media-controls-seek-back-button{
+  background: rgb(255, 96, 96);
+}
+.audio{
+  background-color: rgb(255, 96, 96);
+  background: rgb(255, 96, 96);
+}
+@media (min-width: 1400px){}
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 100vw;
+}
+.adeleback{
+  background-image: 'https://i.imgur.com/6Ag5pfD.jpg';
+}
+.svg-inline--fa.hearth:hover{
+  color: rgb(221, 38, 25) !important;
+  transform: scale(1.01); 
+}
+
+.svg-inline--fa.info:hover{
+  color: rgb(212, 202, 201) !important;
+}
+
+.svg-inline--fa.play:hover{
+  color: rgb(206, 200, 200) !important;
+  transform: scale(1.01); 
+}
+.svg-inline--fa.play:active{
+  
+  transform: scale(1.01); 
+}
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 100vw !important;
+    width: 100vw !important;
+}}
+.col-xl-3 {
+  flex: 0 0 auto;
+  width: 20%;
+}
