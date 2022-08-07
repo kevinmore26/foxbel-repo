@@ -15,6 +15,7 @@ class Search extends Component{
         event.preventDefault();
         let{term}=this.state;
         this.props.searchAlbums(term)
+        console.log(term)
     }
     render(){
         return(
